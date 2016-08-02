@@ -1,0 +1,9 @@
+state("RBDoom3BFG")
+{
+    bool loading : 0x11F75B0;
+}
+
+isLoading
+{
+    return current.loading;
+}
